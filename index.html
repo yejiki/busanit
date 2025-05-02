@@ -7,12 +7,36 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <h1>로그인</h1>
-  <form>
-    <input type="text">
-    <input type="password">
-    <input type="checkbox" id="kind1" checked><label for="kind1">로그인 상태 유지</label>
-    <button type="submit">로그인</button>
-  </form>
+  <div id="wrap">
+    <h1>TEAM BUSAN IT</h1>
+    <form>
+      
+      <div class="log-input">
+        <input type="text" placeholder="아이디 또는 전화번호" id="number">
+        <input type="password" placeholder="비밀번호" id="pw">
+      </div><!-- .log-input -->
+      
+      <div class="keep-log">
+        <input type="checkbox" id="kind1"><label for="kind1">로그인 상태 유지</label>
+      </div><!-- .keep-log -->
+      
+      <div class="btn-main">
+        
+        <button type="button"><a href="main.html">메인페이지</a></button>
+        <button type="button"><a href="person.html">회원가입</a></button>
+      </div>
+    </form>
+
+
+<!--
+    <div class="main-bottom">
+      <ul>
+        <li><a href="#">비밀번호 찾기</a></li>
+        <li><a href="#">아이디 찾기</a></li>
+        <li><a href="#">회원가입</a></li>
+      </ul>
+    </div>
+  -->
+  </div><!-- #wrap -->
 </body>
 </html>
