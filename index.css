@@ -20,27 +20,31 @@ h1{
   color: #03C75A;
   text-align: center;
   font-weight: 800;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
 }
 form{
   border: 1px solid #dbdbdb;
   align-items: center;
   padding: 50px;
-  width: 350px;
   border-radius: 10px;
   margin: 0 auto;
+  width: 40%;
 }
 
 
 /* .log-input */
+.log-input input{
+  margin: 0 auto;
+  width: 90%;
+}
 .log-input input[type="text"], .log-input input[type="password"]{
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .log-input #number{
   box-sizing: border-box;
   display: block;
   height: 50px;
-  width: 350px;
   border-radius: 8px 8px 0 0;
   border: 1px solid #aaa;
   padding: 0 0 0 20px;
@@ -49,14 +53,10 @@ form{
   box-sizing: border-box;
   display: block;
   height: 50px;
-  width: 350px;
   border-radius: 0 0 8px 8px;
   border: 1px solid #aaa;
   padding: 0 0 0 20px;
   margin-top: -1px;
-}
-.log-input input{
-  margin: 0 auto;
 }
 .log-input input:focus{
   outline: 1px solid #03C75A;
@@ -67,7 +67,7 @@ form{
 /* .keep-log */
 .keep-log{
   display: block;
-  padding: 10px 0;
+  padding: 10px 5%;
 }
 .keep-log input[type="checkbox"]{
   accent-color: #03C75A;
@@ -79,7 +79,7 @@ form{
 .keep-log label{
   color: #aaa;
   margin-left: 10px;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 /* .btn-main */
@@ -89,7 +89,7 @@ form{
 }
 .btn-main button{
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.3rem;
   width: calc((100% - 10px) / 2);
   height: 40px;
   border: 0;
