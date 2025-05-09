@@ -8,7 +8,7 @@ header h1 a{display: block; color: white;}
 header .utill{display: flex;}
 header .utill li{padding: 0 10px;}
 header .utill li a{display: block; font-size: 1.3rem; color: white; font-weight: 500; margin-top: 5px;}
-header .utill li .menu{width: 20px; height: 20px; background: url(./list.png) no-repeat no-repeat center / cover;}
+header .utill li .menu{width: 20px; height: 20px; background: url(../img/list.png) no-repeat no-repeat center / cover;}
 
 .bg{width: 100%; background-color: white; border-bottom: 1px solid #ddd;}
 .bg .bg-wrap{display: flex; gap: 30px;}
@@ -21,7 +21,7 @@ main p{font-size: 1.2rem; color: #666; margin-top: 10px;}
 
 main .main-wrap{display: flex; justify-content: space-between; align-items: center; padding-top: 40px;}
 main .member{width: 300px; text-align: center; background-color: #f9f9f9; border-top: 1px solid #08a600; border-bottom: 1px solid #08a600; padding: 30px 0;}
-main .member-img{width: 200px; height: 200px; border-radius: 50%; margin: 0 auto 20px; background: url(./admin.jpg) no-repeat center / cover;}
+main .member-img{width: 200px; height: 200px; border-radius: 50%; margin: 0 auto 20px; background: url(../img/admin.jpg) no-repeat center / cover;}
 main .member-img img{width: 100%;}
 main .member h2{font-size: 2rem; color: #333;}
 main .member h2 span{display: block; font-size: 1.4rem; color: #08a600; opacity: 0.5;}
